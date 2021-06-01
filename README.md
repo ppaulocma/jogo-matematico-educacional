@@ -1,15 +1,15 @@
 
 <p align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/GabrielBarcelos1/Jogo-matem-tico-educacional">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/ppaulocma/jogo-matematico-educacional">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/GabrielBarcelos1/Jogo-matem-tico-educacional">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/ppaulocma/jogo-matematico-educacional">
   
-  <a href="https://github.com/GabrielBarcelos1/Jogo-matem-tico-educacional/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/GabrielBarcelos1/Jogo-matem-tico-educacional">
+  <a href="https://github.com/ppaulocma/jogo-matematico-educacional/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/ppaulocma/jogo-matematico-educacional">
   </a>
 
-  <a href="https://github.com/GabrielBarcelos1/Jogo-matem-tico-educacional/issues">
-    <img alt="Repository issues" src="https://img.shields.io/github/issues/GabrielBarcelos1/Jogo-matem-tico-educacional">
+  <a href="https://github.com/ppaulocma/jogo-matematico-educacional/issues">
+    <img alt="Repository issues" src="https://img.shields.io/github/issues/ppaulocma/jogo-matematico-educacional">
   </a>
 
 </p>
@@ -19,8 +19,7 @@
   <a href="#-projeto">💻 Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-frontend">🌐 Frontend</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-como-executar">🔖Como Executar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-como-contribuir">🤔 Como contribuir</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-licença">🧾 Licença</a>
+  <a href="#-como-contribuir">🤔 Como contribuir</a>&nbsp;&nbsp;&nbsp;
 </p>
 
 <br>
@@ -39,10 +38,11 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 O jogo de matemática Solving Fast foi desenvolvido no intuito de facilitar o aprendizado de crianças de adolescentes de 1º ao 9º ano <br>
 do ensino fundamental, tendo em mente fazer sempre os alunos praticarem de uma forma divertida e assim treinando e capacitando mais e mais sua memória muscular.
 
+- Feito por [Paulo Cesar](https://github.com/ppaulocma) e [Gabriel Vieira Barcelos](https://github.com/GabrielBarcelos1)
 
 ## 🌐 Frontend
 <h1 align="center">
-    <img  src="https://github.com/GabrielBarcelos1/Jogo-matem-tico-educacional/blob/master/SolvingFast.gif" />
+    <img  src="https://github.com/ppaulocma/jogo-matematico-educacional/blob/master/SolvingFast.gif" />
 </h1>
 
     
@@ -50,8 +50,8 @@ do ensino fundamental, tendo em mente fazer sempre os alunos praticarem de uma f
 
 #### Clonando o projeto
 ```sh
-git clone https://github.com/GabrielBarcelos1/Calculador-de-salario-com-taxas.git
-cd Calculador-de-salario-com-taxas
+git clone https://github.com/ppaulocma/jogo-matematico-educacional.git
+cd jogo-matematico-educacional
 Depois disso é so mecher no projeto.
 ```
 
@@ -64,16 +64,3 @@ Depois disso é so mecher no projeto.
 - Faça push para a sua branch: `git push origin minha-feature`.
 
 Depois que o merge da sua pull request for feito, você pode deletar a sua branch.
-
-
-<p align="center">Feito Paulo Cesar e Gabriel Vieira Barcelos</p>
-
-
-
-
-
-
-
-
-
-
