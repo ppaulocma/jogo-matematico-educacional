@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee+Hairline');
+body{
+    background: no-repeat center top/100% url( "../img/images.jpg");
+}
+
+div.botoes_dificuldades{
+    height: 460px;
+    width: 300px;
+    text-align: center;
+    position: relative;
+    border-radius: 13px;
+    border: 1px solid #6e0a6e;
+    background-color: rgb(102, 1, 102,0.3);
+    margin: 0 auto;
+    top: 70px;
+    animation-name: fadeInDown;
+    animation-duration: 2s;
+}
+div.nickname{
+    height: 30px;
+    width: 250px;
+    margin: 0  auto;
+    position: relative;
+    top: 30px;
+    border-radius: 50px;
+    border: 1px solid #6e0a6e;
+    background-color: rgb(177, 6, 177);
+
+}
+div.turma{
+    height: 30px;
+    width: 250px;
+    margin: 0  auto;
+    position: relative;
+    top: 50px;
+    border-radius: 50px;
+    border: 1px solid #6e0a6e;
+    background-color: rgb(177, 6, 177);
+    animation-name: fadeInDown;
+    animation-duration: 2s;
+}
+input.nickname{
+    height:28px;
+    width: 220px;
+    margin: 0  auto;
+    position: relative;
+    border-radius: 50px;
+    border: 0px solid #6e0a6e;
+    background-color: rgb(177, 6, 177);
+    outline-color: pink;
+    
+}
+input.turma{
+    height:28px;
+    width: 220px;
+    margin: 0  auto;
+    position: relative;
+    border-radius: 30px;
+    border: 0px solid #6e0a6e;
+    background-color: rgb(177, 6, 177);
+    outline-color: pink;
+}
+div.dificuldades{
+    width: 220px;
+    margin: 0  auto;
+    position: relative;
+    text-align: center;
+    border-radius: 30px;
+    border: 1px solid #6e0a6e;
+    background-color: rgb(102, 1, 102,0.4);
+    top: 80px;
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(255, 197, 247);
+    font-family: "Bungee Hairline", cursive;
+    animation-name: fadeInDown;
+    animation-duration: 2s;
+}
+div.botoes{
+    height:70px;
+    width: 170px;
+    margin: 0  auto;
+    position: relative;
+    top: 105px;
+    margin-top: 10px;
+}
+button.click {
+    height:70px;
+    width: 170px;
+	padding: 0px 20px;
+	background: -webkit-gradient(
+		linear, left top, left bottom,
+		from(#ff00ff),
+		to(#300230));
+	background: linear-gradient(
+		top,
+		#ff00ff 0%,
+		#300230);
+	border-radius: 6px;
+	border: 1px solid #6e0a6e;
+	box-shadow:
+		0px 1px 3px rgba(071,024,071,0.6),
+		inset 0px 0px 7px rgba(069,019,069,1);
+        font-family: "Bungee Hairline", cursive;
+    text-align: center;
+    font-size: 23px;
+    font-weight: bold;
+    color: rgb(255, 197, 247);
+    background-color: rgb(84, 84, 84);
+    outline:none;
+    animation-name: fadeInDown;
+    animation-duration: 2s;
+    cursor: pointer;
+    
+
+}
+input.nickname::-webkit-input-placeholder{
+    color: rgb(255, 242, 242); 
+    font-family: "Bungee Hairline", cursive;
+    font-weight: bold;
+    }
+input.turma::-webkit-input-placeholder{
+    color: rgb(255, 255, 255); 
+    font-family: "Bungee Hairline", cursive;
+    font-weight: bold;
+    }
+div.voltar{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    height:30px;
+    width: 40px;
+    border-radius: 12px;
+    border: 1px solid #6e0a6e;
+    background-color: rgb(102, 1, 102,0.5);
+    animation-name: fadeInDown;
+    animation-duration: 2s;
+}
+div.flecha{
+    position:absolute;
+    top:5px ;
+    left:10px;
+    width:30px;
+    height:60px;
+    
+    
+    }
+    .flecha .punta{
+      width: 0;
+      height: 0;
+      border-top: 10px solid transparent;
+      border-bottom: 10px solid transparent;
+      border-right:10px solid rgb(252, 148, 252);
+      position:relative;
+      top:0px;
+      left:0px;
+    }
+    .flecha .cuadro{
+      width: 10px;
+      height: 9px;
+      position:relative;
+      background:rgb(252, 148, 252);
+      top:-14.5px;
+      left:10px;
+    }
+    .alert {
+        left: 1000px;
+        top: 500px;
+        position: absolute;
+        padding: 20px;
+        background-color: rgba(114, 0, 95, 0.5);
+        color: white;
+        margin-bottom: 15px;
+        display: none;
+      }
+      .closebtn {
+        
+        margin-left: 15px;
+        color: white;
+        font-weight: bold;
+        float: right;
+        font-size: 22px;
+        line-height: 20px;
+        cursor: pointer;
+      }
+      .closebtn:hover {
+        color: black;
+      }
+      .animated{
+        animation-name: fadeOutUp;
+        animation-duration: 2s;
+    }
+    

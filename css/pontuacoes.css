@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee+Hairline');
+body{
+    background: no-repeat center top/100% url( "../img/images.jpg");
+}
+div.fundo{
+    height:530px;
+    width: 1000px;
+    top: 40px;
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+    border-radius: 13px;
+    border: 1px solid #6e0a6e;
+    background-color: rgb(102, 1, 102,0.5);
+    animation-name: fadeInDown;
+    animation-duration: 2s;
+    
+}
+div.tabela {
+    position: absolute;
+    top: 120px;
+    left: 230px;
+    height:400px;
+    width: 900px;
+    animation-name: fadeInDown;
+    animation-duration: 2s;
+}
+table {
+    height:400px;
+    width: 900px;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+h1.titulo{
+    left: 245px;
+    top: -120px;
+    position: absolute;
+    color: rgb(255, 181, 255);
+    font-size: 45px;
+    font-family: "Bungee Hairline", cursive;
+    font-weight: bold;
+}
+thead {
+    height:3px;
+    border: 1px solid black;
+    background-color: rgb(128, 0, 128,0.2);
+}
+td.td_1{
+    height:3px;
+    color: rgb(255, 181, 255);
+}
+td.td_2{
+    height:3px;
+    width: 1000px;
+    text-align: left;
+    color: rgb(255, 181, 255);
+}
+td.td_3{
+    height:3px;
+    width: 90px;
+    color: rgb(255, 181, 255);
+}
+tr.tr_1 {
+    height:3px;
+    background-color: rgba(109, 0, 109, 0.3);
+    border: 1px solid black;
+    text-align: center;
+    font-family: "Bungee Hairline", cursive;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgb(255, 181, 255);
+}
+tr.tr_2 {
+    height:3px;
+    background-color: rgba(221, 59, 221, 0.3);
+    border: 1px solid black;
+    text-align: center;
+    font-family: "Bungee Hairline", cursive;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgb(255, 181, 255);
+}
+th {
+    height:3px;
+    border: 1px solid black;
+    font-weight: normal;
+    text-align: center;
+    font-size: 15px;
+    font-family: "Bungee Hairline", cursive;
+    font-weight: bold;
+}
+td {
+    height:3px;
+    border: 1px solid black;
+}
+div.voltar{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    height:30px;
+    width: 40px;
+    border-radius: 12px;
+    border: 1px solid #6e0a6e;
+    background-color: rgb(102, 1, 102,0.5);
+    animation-name: fadeInDown;
+    animation-duration: 2s;
+}
+div.flecha{
+    position:absolute;
+    top:5px ;
+    left:10px;
+    width:30px;
+    height:60px;
+    }
+    .flecha .punta{
+      width: 0;
+      height: 0;
+      border-top: 10px solid transparent;
+      border-bottom: 10px solid transparent;
+      border-right:10px solid rgb(252, 148, 252);
+      position:relative;
+      top:0px;
+      left:0px;
+    }
+    .flecha .cuadro{
+      width: 10px;
+      height: 9px;
+      position:relative;
+      background:rgb(252, 148, 252);
+      top:-14.5px;
+      left:10px;
+    } 

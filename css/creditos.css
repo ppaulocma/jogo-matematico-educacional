@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee+Hairline');
+body{
+    background: no-repeat center top/100% url( "../img/images.jpg");
+}
+div.fundo{
+    height:460px;
+    width: 300px;
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+    border-radius: 13px;
+    border: 1px solid rgb(102, 1, 102);
+    background-color: rgb(102, 1, 102,0.2);
+    top: 45px;
+    animation-name: fadeInDown;
+    animation-duration: 2s;
+}
+div.creditos{
+    height:460px;
+    width: 285px;
+    position: relative;
+    margin: 0 auto;
+    top: 40px;
+    color: rgb(255, 223, 255);
+    overflow: hidden;
+    text-align: center;
+    font-family: "Bungee Hairline", cursive;
+    font-weight: bold;
+
+    
+}
+div.nomes{
+    position: relative;
+    top: 40px;
+    font-size: 15px;
+    font-family: "Bungee Hairline", cursive;
+    font-weight: bold;
+
+}
+div.voltar{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    height:30px;
+    width: 40px;
+    border-radius: 12px;
+    border: 1px solid #6e0a6e;
+    background-color: rgb(102, 1, 102,0.5);
+    animation-name: fadeInDown;
+    animation-duration: 2s;
+}
+div.flecha{
+    position:absolute;
+    top:5px ;
+    left:10px;
+    width:30px;
+    height:60px;
+    }
+    .flecha .punta{
+      width: 0;
+      height: 0;
+      border-top: 10px solid transparent;
+      border-bottom: 10px solid transparent;
+      border-right:10px solid rgb(252, 148, 252);
+      position:relative;
+      top:0px;
+      left:0px;
+    }
+    .flecha .cuadro{
+      width: 10px;
+      height: 9px;
+      position:relative;
+      background:rgb(252, 148, 252);
+      top:-14.5px;
+      left:10px;
+    } 
+

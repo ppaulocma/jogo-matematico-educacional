@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee+Hairline');
+body{
+    background: no-repeat center top/100% url( "../img/images.jpg");
+}
+div.fundo{
+    height: 420px;
+    width: 510px;
+    position: relative;
+    margin: 0 auto;
+    border-radius: 13px;
+    border: 1px solid rgb(110, 10, 110, 0.2);
+    background-color: rgb(102, 1, 102,0.2);
+    top: 80px;
+    color: #ffffff;
+    animation-name: fadeInDown;
+    animation-duration: 2s;
+}
+div.instrucoes_jogar{
+    top: -50px;
+    position: relative;
+    left: 20px;
+    font-size: 14px;
+    font-family: "Bungee Hairline", cursive;
+    font-weight: bold;
+}
+div.intrucoes_vantagens{
+    width: 480px;
+    height: 420px;
+    top: -100px;
+    position: relative;
+    left: 20px;
+    font-size: 14px;
+    font-family: "Bungee Hairline", cursive;
+    font-weight: bold;
+}
+h2{
+    position: relative;
+    top: 20px;
+    font-size: 28px;
+    font-family: "Bungee Hairline", cursive;
+    font-weight: bold;
+}
+img.mouse{
+    top: -20px;
+    width:60px;
+    height: 50px;
+
+}
+div.voltar{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    height:30px;
+    width: 40px;
+    border-radius: 12px;
+    border: 1px solid #6e0a6e;
+    background-color: rgb(102, 1, 102,0.5);
+    animation-name: fadeInDown;
+    animation-duration: 2s;
+}
+div.flecha{
+    position:absolute;
+    top:5px ;
+    left:10px;
+    width:30px;
+    height:60px;
+    }
+    .flecha .punta{
+      width: 0;
+      height: 0;
+      border-top: 10px solid transparent;
+      border-bottom: 10px solid transparent;
+      border-right:10px solid rgb(252, 148, 252);
+      position:relative;
+      top:0px;
+      left:0px;
+    }
+    .flecha .cuadro{
+      width: 10px;
+      height: 9px;
+      position:relative;
+      background:rgb(252, 148, 252);
+      top:-14.5px;
+      left:10px;
+    } 

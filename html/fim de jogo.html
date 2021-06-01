@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Game Over</title>
+    <link rel="stylesheet" type="text/css" href="../css/fim de jogo.css"/>
+    <link rel="stylesheet" type="text/css" href="../css\animate.css"/>
+    
+</head>
+<body onload="pontosF()">
+    <div class="fundo">
+        <h1 class="perdeu">Você Perdeu!</h1>
+        <h4 class="pontos">Sua Pontuação foi de:</h4>
+        <div class="pontos_finais" id="pontos_finais"></div>
+        <div class="menu" onclick="voltar_menu()">Voltar Para o Menu</div>    
+        <div class="novamente" onclick="tentar_novamente()">Tentar Novamente</div>
+    </div>
+    <script src="../js/jsgeral.js"></script>
+</body>
+</html>

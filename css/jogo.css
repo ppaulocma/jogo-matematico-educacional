@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee+Hairline');
+body{
+    background: no-repeat center top/100% url( "../img/images.jpg");
+}
+div.fundo{
+    height: 550px;
+    width: 850px;
+    position: relative;
+    margin: 0 auto;
+    border-radius: 13px;
+    border: 1px solid rgb(110, 10, 110);
+    background-color: rgb(102, 1, 102,0.4);
+    top: 45px;
+    animation-name: fadeInDown;
+    animation-duration: 2s;
+
+}
+div.pontos{
+    text-align: center;
+    font-size: 24px;
+    color: rgb(255, 196, 255);
+    font-family: "Bungee Hairline", cursive;
+    font-weight: bold;
+    line-height: 30px;
+}
+div.resposta1{
+    height: 80px;
+    width: 230px;
+    position: relative;
+    border-radius: 13px;
+    border: 1px solid rgb(110, 10, 110);
+    background-color: rgb(102, 1, 102,0.5);
+    margin-right: 10px;
+    top: 170px;
+    margin-top: 70px;
+    left: 90px;
+    color: rgb(255, 196, 255);
+    font-size: 50px;
+    text-align: center;
+    font-family: "Bungee Hairline", cursive;
+    font-weight: bold;
+    line-height: 40px;
+    cursor: pointer;
+}
+div.resposta2{
+    height: 80px;
+    width: 230px;
+    position: relative;
+    border-radius: 13px;
+    border: 1px solid rgb(110, 10, 110);
+    background-color: rgb(102, 1, 102,0.5);
+    margin-right: 10px;
+    top: 170px;
+    margin-top: 70px;
+    left: 90px;
+    color: rgb(255, 196, 255);
+    font-size: 50px;
+    text-align: center;
+    font-family: "Bungee Hairline", cursive;
+    font-weight: bold;
+    line-height: 80px;
+    cursor: pointer;
+}
+div.resposta3{
+    height: 80px;
+    width: 230px;
+    position: relative;
+    border-radius: 13px;
+    border: 1px solid rgb(110, 10, 110);
+    background-color: rgb(102, 1, 102,0.5);
+    margin-right: 10px;
+    top: -134px;
+    margin-top: 70px;
+    left: 500px;
+    color: rgb(255, 196, 255);
+    font-size: 50px;
+    text-align: center;
+    font-family: "Bungee Hairline", cursive;
+    font-weight: bold;
+    line-height: 80px;
+    cursor: pointer;
+}
+div.resposta4{
+    height: 80px;
+    width: 230px;
+    position: relative;
+    border-radius: 13px;
+    border: 1px solid rgb(110, 10, 110);
+    background-color: rgb(102, 1, 102,0.5);
+    margin-right: 10px;
+    top: -134px;
+    margin-top: 70px;
+    left: 500px;
+    color: rgb(255, 196, 255);
+    font-size: 50px;
+    text-align: center;
+    font-family: "Bungee Hairline", cursive;
+    font-weight: bold;
+    line-height: 80px;
+    cursor: pointer;
+}
+div.conta{
+    height: 90px;
+    width: 270px;
+    position: relative;
+    float: left;
+    top: 90px;
+    margin-left: 200px;
+    left: 95px;
+    color: rgb(255, 196, 255);
+    text-align: center;
+    font-size: 80px;
+    font-family: "Bungee Hairline", cursive;
+    font-weight: bold;
+    line-height: 80px;
+    cursor: default;
+}
+div.pontos{
+    height: 30px;
+    width: 130px;
+    position: relative;
+    border-radius: 13px;
+    border: 1px solid rgb(110, 10, 110);
+    background-color: rgb(102, 1, 102,0.3);
+    top: 35px;
+    left: 690px;
+    
+}
+h4{
+  position: absolute;
+  left: 700px;
+  top: -10px;
+  color: rgb(255, 196, 255);
+  font-size: 17px;
+  font-family: "Bungee Hairline", cursive;
+    font-weight: bold;
+    line-height: 20px;
+}
+.progress{
+    width: 600px;
+    height: 15px;
+    background-color:rgb(102, 1, 102,0.3);;
+    position: absolute;
+    left: 50px;
+    top: 45px;
+}
+.progress .progress-bar{
+   position: absolute;
+   height: 100%;
+   background-color: rgb(110, 10, 110);
+   animation: progress-animation 180s infinite;
+}
+@keyframes progress-animation{
+    0% { width: 0%; }
+    
+    100% { width: 100%}
+    
+}
+div.tempo {
+    font-size: 20px;
+    color: rgb(255, 196, 255);
+    position: absolute;
+    text-align: center;
+    left:390px;
+    top: 15px;
+    font-family: "Bungee Hairline", cursive;
+    font-weight: bold;
+    line-height: 20px;
+}
+div.voltar{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    height:30px;
+    width: 60px;
+    border-radius: 12px;
+    border: 1px solid #6e0a6e;
+    background-color: rgb(102, 1, 102,0.5);
+    animation-name: fadeInDown;
+    animation-duration: 2s;
+    cursor: pointer;
+}
+div.voltar h1{
+    position: relative;
+    top: -11px;
+    left: 5px;
+    font-size: 17px;
+    color: rgb(255, 196, 255);
+    font-family: "Bungee Hairline", cursive;
+    font-weight: bold;
+    line-height: 30px;
+    cursor: pointer;
+}
+.animated{
+    animation-name: fadeOutUp;
+    animation-duration: 2s;
+}

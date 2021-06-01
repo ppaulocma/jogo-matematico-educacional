@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Averia+Serif+Libre');
+@import url('https://fonts.googleapis.com/css?family=Bungee+Hairline');
+
+    
+body{
+    background: no-repeat center top/100% url( "../img/images.jpg");
+}
+
+    h1{
+        color: rgb(255, 196, 255);
+        font-size: 80px;
+        text-align: center;
+        top: -80px;
+        position: relative;
+        font-family: "Bungee Hairline", cursive;
+        animation-name: fadeIn;
+        animation-duration: 3s;
+        
+    }
+   
+   div.botoes_menu{
+        height: 400px;
+        width: 300px;
+        position: relative;
+        top: -150px;
+        margin: 0 auto;
+        border-radius: 10px;
+        border: 1px solid #6e0a6e;
+        background-color: rgb(102, 1, 102,0.3);
+        animation-name: fadeIn;
+        animation-duration: 3s;
+   }
+   div.botoes{
+        height:60px;
+       width: 190px;
+       margin: 0  auto;
+       position: relative;
+       top: 40px;
+       margin-top: 20px;
+       
+   }
+   button.click {
+    height:60px;
+    width: 190px;
+	padding: 0px 20px;
+	background: -webkit-gradient(
+		linear, left top, left bottom,
+		from(#ff00ff),
+		to(#300230));
+	background: linear-gradient(
+		top,
+		#ff00ff 0%,
+		#300230);
+	border-radius: 6px;
+	border: 1px solid #6e0a6e;
+	box-shadow:
+		0px 1px 3px rgba(071,024,071,0.6),
+		inset 0px 0px 7px rgba(069,019,069,1);
+        font-family: "Bungee Hairline", cursive;
+    text-align: center;
+    font-size: 23px;
+    font-weight: bold;
+    color: rgb(255, 196, 255);
+    background-color: rgb(84, 84, 84);
+    outline:none;
+    cursor: pointer;
+}
+.animated{
+    animation-name: fadeOutUp;
+    animation-duration: 2s;
+}
+

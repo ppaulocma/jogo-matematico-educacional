@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Dificuldades</title>
+    <link rel="stylesheet" type="text/css" href="../css\cadastrar.css"/>
+    <link rel="stylesheet" type="text/css" href="../css\animate.css"/>
+</head>
+    <body>
+        <div class="voltar" onclick="voltar_menu()">
+            <div class="flecha">
+              <div class="punta"></div>
+              <div class="cuadro"></div>
+            </div>
+          </div>
+        <div class="botoes_dificuldades">
+            <label>
+                <div class="nickname" >
+                    <input type="text" id="nickname" class="nickname" placeholder="Digite seu nome aqui">
+                </div>
+            </label>
+            <label>
+                    <div class="turma">
+                            <input type="text" id="turma" class="turma" placeholder="Digite sua turma">
+                    </div>
+            </label>
+            <div class="dificuldades">
+                Selecione a Dificuldade
+            </div>
+            <div class="botoes">
+                <button type="button" onclick="dificuldade('1')" class="click">Fácil</button>
+            </div>
+            <div class="botoes">
+                <button type="button" onclick="dificuldade('2')" class="click">Normal</button>
+            </div>
+            <div class="botoes">
+                <button type="button" onclick="dificuldade('3')" class="click">Difícil</button>
+            </div>
+        </div>
+            <div id="minhaDiv" class="alert">
+                <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+                    O seu nome precisa ter de 3 à 15 caracteres</br>
+                    E sua turma de 2 à 6 caracteres
+          </div>
+        <script src="../js\jsgeral.js"> </Script>
+    </body>
+</html>

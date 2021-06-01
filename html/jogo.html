@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Solving Fast</title>
+    <link rel="stylesheet" type="text/css" href="../css\jogo.css"/>
+    <link rel="stylesheet" type="text/css" href="../css\animate.css"/>
+    
+</head>
+<body onload="carregarJogo()">
+ 
+    <div class="fundo">
+        <h4>Pontuação:</h4>
+        <div id="tempo" class="tempo" ></div>
+        <div class="pontos" id="pontos"></div>
+        <div class="progress">
+            <div class="progress-bar" id="barra"></div>
+        </div>
+        <div class="conta" id="conta"></div>
+        <div class="resposta1" id="botao_1" onclick="clickBotao1()"></div>
+        <div class="resposta2" id="botao_2" onclick="clickBotao2()"></div>
+        <div class="resposta3" id="botao_3" onclick="clickBotao3()"></div>
+        <div class="resposta4" id="botao_4" onclick="clickBotao4()"></div>
+        </div>
+        <div class="voltar" onclick="voltar_menu()">
+            <h1>Menu</h1>
+        </div>
+    </div>
+    <script src="../js\jsgeral.js"></script>
+</body>
+</html>
