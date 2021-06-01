@@ -1,18 +1,4 @@
 
-<p align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/ppaulocma/jogo-matematico-educacional">
-
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/ppaulocma/jogo-matematico-educacional">
-  
-  <a href="https://github.com/ppaulocma/jogo-matematico-educacional/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/ppaulocma/jogo-matematico-educacional">
-  </a>
-
-  <a href="https://github.com/ppaulocma/jogo-matematico-educacional/issues">
-    <img alt="Repository issues" src="https://img.shields.io/github/issues/ppaulocma/jogo-matematico-educacional">
-  </a>
-
-</p>
 
 <p align="center">
   <a href="#-tecnologias">🚀 Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
